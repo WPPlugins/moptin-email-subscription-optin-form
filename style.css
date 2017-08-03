@@ -1,0 +1,182 @@
+.moptin {
+    margin: 0px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #2d2d2d;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.2);
+    color:#fff;
+    display: inline-block;
+    font-family: sans-serif;
+    height: auto;
+    max-height: 100%;
+    overflow-y: auto;
+    border-radius:0px;
+}
+.moptin *{box-sizing: border-box}
+.moptin-Montserrat *{
+    font-family: 'Montserrat', sans-serif;
+}
+.moptin__display-exit{display:none;}
+.moptin-green{
+    background:#0fcb80;
+}
+.moptin-t-center{
+    text-align: center;
+}
+.moptin-box{
+    border-radius: 5px;
+}
+.moptin__close-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0px 10px;
+    border-radius: 2px;
+    cursor:pointer;
+    text-decoration: none;
+    color:#fff;
+}
+.moptin__close-btn:hover{
+    background: #fff;
+    background: rgba(255,255,255,0.5);
+    color: #000;
+}
+.moptin-takeover{
+    position: fixed;
+    top:0px;
+    left:0px;
+    display:none;
+    width:100%;
+    height:100%;
+    z-index: 99999;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+.moptin-takeover-body{
+    overflow:hidden !important;
+}
+.moptin__display__immediately{display:block}
+.moptin__container{
+    width:100%;
+    max-width: 1280px;
+    height:auto;
+    margin:0px auto;
+    display: inline-block;
+}
+.moptin-top .moptin__content-wrapper,
+.moptin-top .moptin__img{margin-top:0px !important}
+.moptin__img-wrapper{
+    width:30%;
+}
+.moptin__content-wrapper{
+    width:70%;
+    padding: 10px 20px;
+    //transform: translateY(50%);
+}
+.moptin-right .moptin__img-wrapper,
+.moptin-left .moptin__content-wrapper{
+    float:right;
+}
+.moptin-right .moptin__content-wrapper,
+.moptin-left .moptin__img-wrapper{
+    float:left;
+}
+
+.moptin-top .moptin__img-wrapper,
+.moptin-top .moptin__content-wrapper{
+    width:100%;
+    padding:10px 0px;
+}
+.moptin__img{
+    width:auto;
+    max-width:100%;
+    height:auto;
+    margin: auto;
+    max-height: 90%;
+}
+.moptin__h-wrapper {
+    display: inline-block;
+}
+.moptin__heading {
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.moptin__sub-heading {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 15px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.moptin__f-wrapper {
+    margin-top: 10px;
+    display: inline-block;
+    width:100%;
+}
+
+.moptin__form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.moptin__submit-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0px !important;
+    padding: 12px 40px !important;
+    font-size: 24px !important;
+    font-family: inherit;
+    background: #fff;
+    border: 0px;
+    border-radius: 40px;
+    color: #0fcb80;
+    outline: none;
+    font-weight: 400;
+    cursor:pointer;
+}
+
+.moptin__input {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
+    margin: 5px 0px;
+    width: 100%;
+    color: #0fcb80;
+    outline:none !important;
+}
+.moptin__input::-webkit-input-placeholder{color:#000}
+.moptin__input:-moz-placeholder{color:#000}
+.moptin__input::-moz-placeholder{color:#000}
+.moptin__input:-ms-input-placeholder {color:#000}
+.moptin-credit{width:100%;display:inline-block;margin-top:10px;font-size:11px}
+.moptin-credit a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    background: rgba(0,0,0,.2);
+    padding: 3px 7px;
+    font-weight: bold;
+    border-radius: 1px;
+    box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.1);
+}
+@media all and (max-width:480px){
+    .moptin{padding:10px;}
+    .moptin__img-wrapper{width:100% !important;margin-bottom:10px}
+    .moptin__content-wrapper{width:100% !important;padding:0px;margin:0px !important}
+    .moptin__img{max-height: 250px !important;margin:0px auto !important}
+    .moptin__heading{font-size:28px;line-height:34px}
+    .moptin__sub-heading{font-size:14px;line-height:24px}
+}
